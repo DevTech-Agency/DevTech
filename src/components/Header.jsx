@@ -21,7 +21,8 @@ const Header = () => {
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl
         font-light m-0">
-            Dev
+            <img className="w-1/1 h-9 object-cover"
+                    src="/dv-prev.png" alt="logo" />
         </h1>
 
         {/*Desktop Navigation */}

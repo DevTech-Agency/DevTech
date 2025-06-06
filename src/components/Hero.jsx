@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className='absolute inset-[3px] bg-black
                 rounded-full flex items-center justify-center gap-1'>
                     <img className="filter brightness-0 invert"
-                    src="/diamond-alt.png" alt="Mobile-menu" /> 
+                    src="/diamond-alt.png" alt="Diamond-icon" /> 
                     Powerful
                 </div>
             </div>
