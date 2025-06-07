@@ -47,7 +47,7 @@ const Header = () => {
         </nav>
 
         <button className="hidden md:block bg-[#a7a7a7] 
-        text-black py-3 px-8 rounded-full border-none font-medium
+        text-black py-1 px-5 rounded-full border-none font-medium
         transition-all duration-500 hover:bg-white cursor-pointer z-50">
             Cotizar
         </button>
@@ -82,7 +82,7 @@ const Header = () => {
                 Precios
             </a>
                 <button className="md:block bg-[#a7a7a7] 
-                text-black py-3 px-8 rounded-full border-none font-medium
+                text-black py-1 px-5 rounded-full border-none font-medium
                 transition-all duration-500 hover:bg-white cursor-pointer z-50">
                 Cotizar
         </button>
