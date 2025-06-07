@@ -37,8 +37,8 @@ const Hero = () => {
 
             {/* Button */}
             <div className='flex gap-3 mt-5'>
-                <a className='flex items-center gap-1 border border-[#2a2a2a] 
-                sm:px-3 rounded-full sm:text-sm text-sm font-semibold
+                <a className='flex items-center gap-1 border border-[#2a2a2a] py-1.5 
+                sm:px-6 rounded-full sm:text-sm text-sm font-semibold
                 tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]' href="#">
                     Características<img className="h-5 w-5 filter brightness-0 invert"
                     src="/arrow-up-right.png" alt="Arrow-up-right" />
