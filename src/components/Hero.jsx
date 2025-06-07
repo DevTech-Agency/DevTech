@@ -1,10 +1,11 @@
 import 'boxicons/css/boxicons.min.css';
+import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   return (
     <main className="flex lg:mt-20 flex-col lg:flex-row
     items-center justify-between min-h-[calc(90vh-6rem)]">
-        <div className="max-w-xl ml-[5%] -z-10 mt-[90%]
+        <div className="max-w-xl ml-[5%] mt-[90%]
         md:mt-[60%] lg:mt-0">
             {/* Tag box-width gradient border */}
             <div className='relative w-[95%] sm:w-54
@@ -35,9 +36,9 @@ const Hero = () => {
             </p>
 
             {/* Button */}
-            <div>
-                <a className='flex items-center gap-1 border border-[#2a2a2a] py-2 sm:py-3
-                px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold
+            <div className='flex gap-3 mt-5'>
+                <a className='flex items-center gap-1 border border-[#2a2a2a] 
+                sm:px-3 rounded-full sm:text-sm text-sm font-semibold
                 tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]' href="#">
                     Características<img className="h-5 w-5 filter brightness-0 invert"
                     src="/arrow-up-right.png" alt="Arrow-up-right" />
@@ -45,6 +46,11 @@ const Hero = () => {
                 </a>
             </div>
         </div>
+
+        {/*3D Rocket */}
+        <Spline className='absolute lg:top-0 top-[-20%] 
+        bottom-0 lg:left-[25%] sm:left-[-2%] h-full' scene="https://prod.spline.design/EgWjeZcFVq72K-BL/scene.splinecode" />
+
     </main>
   )
 }
