@@ -1,8 +1,12 @@
 import 'boxicons/css/boxicons.min.css';
 import Spline from '@splinetool/react-spline';
 
+import Spotlight from "./Spotlight";
+
+
 const Hero = () => {
   return (
+  
     <main className="flex lg:mt-20 flex-col lg:flex-row
     items-center justify-between min-h-[calc(90vh-6rem)]">
         <div className="max-w-xl ml-[5%] mt-[90%]
@@ -42,7 +46,6 @@ const Hero = () => {
                 tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]' href="#">
                     Características<img className="h-5 w-5 filter brightness-0 invert"
                     src="/arrow-up-right.png" alt="Arrow-up-right" />
-                     
                 </a>
             </div>
         </div>
@@ -50,8 +53,25 @@ const Hero = () => {
         {/*3D Rocket */}
         <Spline className='absolute lg:top-0 top-[-20%] 
         bottom-0 lg:left-[25%] sm:left-[-2%] h-full' scene="https://prod.spline.design/EgWjeZcFVq72K-BL/scene.splinecode" />
+        
+        <div className='pb-20 pt-36'>
+            <div>
+                <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20
+                h-screen' fill='white' />
+                <Spotlight className='-top-10 -left-full h-[80vh] w-[50vw]' 
+                fill='purple' />
+                <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' 
+                fill='blue' />
+            </div>
+        </div>
+        
+
+
+
 
     </main>
+    
+  
   )
 }
 

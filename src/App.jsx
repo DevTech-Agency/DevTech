@@ -1,9 +1,15 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 
+
+import Spotlight from "./components/Spotlight";
+
+
 export default function App() {
   return (
     <main>
+       <Spotlight />
+      
       {/*Gradient image*/}
       <img className="absolute top-0 right-0 opacity-60 -z-10" 
       src="/gradient.png" alt="Gradient-img" />
@@ -15,6 +21,10 @@ export default function App() {
 
       <Header/>
       <Hero/>
+
+     
+
     </main>
+   
   )
 }
